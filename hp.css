@@ -1,3 +1,23 @@
 body {
-  background-color: antiquewhite;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #efeeea;
+}
+
+img {
+  height: auto;
+  width: 200px;
+}
+
+@media screen and (min-width: 480px) { }
+
+/* ipad縦 */
+@media screen and (min-width: 768px) { }
+
+/* PC・ipad横 */
+@media screen and (min-width: 1024px) {
+
 }
