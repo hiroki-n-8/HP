@@ -8,6 +8,7 @@ body {
 
 .border-main {
   border-left: 15px solid #ff6291;
+  border-right: 15px solid #ff6291;
 }
 
 .main-color {
@@ -19,7 +20,7 @@ body {
 }
 
 .border-sub {
-  border-left: 15px solid #43ff01;
+  border-left: 10px solid #43ff01;
 }
 
 footer {
@@ -28,7 +29,8 @@ footer {
 }
 
 footer .container {
-  background-color: #ffdb59;
+  background-color: #f8f9fa;
+  /* background-color: #ffdb59; */
 }
 
 img {
