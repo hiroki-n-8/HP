@@ -2,6 +2,10 @@ body {
   background-color: #efeeea;
 }
 
+h1 {
+  font-size: large;
+}
+
 .container {
   background-color: #ffffff;
 }
@@ -24,13 +28,9 @@ body {
 }
 
 footer {
+  background-color: #f8f9fa;
   width: 100%;
   height: auto;
-}
-
-footer .container {
-  background-color: #f8f9fa;
-  /* background-color: #ffdb59; */
 }
 
 img {
@@ -50,8 +50,12 @@ img {
     font-size: x-large;
   }
 
-  .explanation {
-    font-size: medium;
+  h1 {
+    font-size: xx-large;
+  }
+
+  .description {
+    font-size: large;
   }
 
 }
