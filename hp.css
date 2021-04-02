@@ -34,6 +34,10 @@ footer {
   height: auto;
 }
 
+.footer-title{
+  font-size: small;
+}
+
 img {
   height: auto;
   width: 200px;
@@ -47,6 +51,10 @@ img {
   footer {
     font-size: medium;
   }
+
+  .footer-title{
+    font-size: large;
+
 
 }
 
