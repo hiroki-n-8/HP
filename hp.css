@@ -47,6 +47,10 @@ img {
 @media screen and (min-width: 1024px) {
 
   .container {
+    font-size: large;
+  }
+
+  .border-sub {
     font-size: x-large;
   }
 
