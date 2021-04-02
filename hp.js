@@ -37,26 +37,26 @@ footer.innerHTML = `<div class="row">
                       <div class="col-md-10 offset-md-1">
                         <div class="text-center">
                           <div class="my-3"><strong>訪問看護ステーション なごみ</strong></div>
-                          <div class="d-flex justify-content-around text-left my-3">
-                            <div>
+                          <div class="row text-left my-3">
+                            <div class="col-sm-4 offset-2">
                               <strong>所在地</strong><br>
                               〒 577-0804<br>
                               東大阪市中小阪1-15-5
                             </div>
-                            <div>
+                            <div class="col-sm-4 offset-1">
                               <strong>お問い合わせ</strong><br>
                               TEL： 06 - 6782 - 8177<br>
                               FAX： 06 - 6782 -8255
                             </div>
-                            <div>
+                            <div class="col-sm-4 offset-2 mt-3">
                               <strong>営業時間</strong><br>
                               月 〜 金曜日<br>
                               ９：００ 〜 １７：００<br>
                               <small>※夜間・休日の急変など、緊急の場合には携帯電話で連絡がつきます。</small>
-                              <div class="mt-2">
-                                <strong>定休日</strong><br>
-                                土・日曜日（医療の場合は相談可）
-                              </div>
+                            </div>
+                            <div class="col-sm-4 offset-1 mt-3">
+                              <strong>定休日</strong><br>
+                              土・日曜日（医療の場合は相談可）
                             </div>
                           </div>
                           <div class="mb-2">

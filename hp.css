@@ -28,6 +28,7 @@ h1 {
 }
 
 footer {
+  font-size: xx-small;
   background-color: #f8f9fa;
   width: 100%;
   height: auto;
@@ -41,7 +42,13 @@ img {
 @media screen and (min-width: 480px) { }
 
 /* ipad縦 */
-@media screen and (min-width: 768px) { }
+@media screen and (min-width: 768px) {
+
+  footer {
+    font-size: medium;
+  }
+
+}
 
 /* PC・ipad横 */
 @media screen and (min-width: 1024px) {
