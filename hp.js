@@ -46,7 +46,7 @@ footer.innerHTML = `<div class="row">
                             <div class="col-6 col-md-4 offset-md-2">
                               <strong>お問い合わせ</strong><br>
                               TEL： 06 - 6782 - 8177<br>
-                              FAX： 06 - 6782 -8255
+                              FAX： 06 - 6782 - 8255
                             </div>
                             <div class="col-6 col-md-4 offset-md-1 mt-3">
                               <strong>営業時間</strong><br>
