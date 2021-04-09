@@ -19,12 +19,20 @@ h1 {
   color: #ff6291;
 }
 
+.border-sub {
+  border-left: 10px solid #43ff01;
+}
+
 .sub-color {
   color: #43ff01;
 }
 
-.border-sub {
-  border-left: 10px solid #43ff01;
+.border-sub-another {
+  border-left: 10px solid #ffbd59;
+}
+
+.sub-another-color {
+  color: #ffbd59;
 }
 
 footer {
@@ -54,7 +62,7 @@ img {
 
   .footer-title{
     font-size: large;
-
+  }
 
 }
 
