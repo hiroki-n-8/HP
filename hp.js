@@ -12,10 +12,10 @@ header.innerHTML = `<nav class="navbar navbar-expand-lg navbar-light bg-light">
                       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link" href="feature.html">特徴<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">サービス案内<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="index.html">サービス案内<span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="feature.html">特徴<span class="sr-only">(current)</span></a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="information.html">ステーション案内<span class="sr-only">(current)</span></a>
@@ -49,8 +49,8 @@ footer.innerHTML = `<div class="container">
                               </div>
                               <div class="col-6 col-md-4 offset-md-2">
                                 <strong>お問い合わせ</strong><br>
-                                TEL： 06 - 6782 - 8177<br>
-                                FAX： 06 - 6782 - 8255
+                                TEL： 06 - 6730 - 8377<br>
+                                FAX： 06 - 6730 - 8378
                               </div>
                               <div class="col-6 col-md-4 offset-md-1 mt-3">
                                 <strong>営業時間</strong><br>

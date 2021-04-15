@@ -42,8 +42,40 @@ footer {
   height: auto;
 }
 
+.emphasis {
+  font-size: large;
+  font-weight: bold;
+}
+
+.feature_left-top{
+  transform: rotate(-45deg);
+  font-size: large;
+}
+.feature_right-top{
+  transform: rotate(45deg);
+  font-size: large;
+}
+.feature_left-bottom{
+  transform: rotate(-135deg);
+  font-size: large;
+}
+.feature_right-bottom{
+  transform: rotate(135deg);
+  font-size: large;
+}
+
 .footer-title{
   font-size: small;
+}
+
+.philosophy{
+  font-size: large;
+  width: 180px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffbd59;
+  text-align:center;
+  line-height: 80px;
 }
 
 img {
@@ -58,6 +90,30 @@ img {
 
   footer {
     font-size: medium;
+  }
+
+  .emphasis {
+    font-size: x-large;
+  }
+
+  .feature_left-top{
+    font-size: xx-large;
+  }
+  .feature_right-top{
+    font-size: xx-large;
+  }
+  .feature_left-bottom{
+    font-size: xx-large;
+  }
+  .feature_right-bottom{
+    font-size: xx-large;
+  }
+
+  .philosophy{
+    font-size: x-large;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
   }
 
   .footer-title{
