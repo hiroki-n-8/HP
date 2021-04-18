@@ -10,6 +10,10 @@ h1 {
   background-color: #ffffff;
 }
 
+.nav-info {
+  font-size: large;
+}
+
 .border-main {
   border-left: 15px solid #ff6291;
   border-right: 15px solid #ff6291;
