@@ -42,26 +42,36 @@ footer.innerHTML = `<div class="container">
                           <div class="text-center">
                             <div class="footer-title my-3"><strong>訪問看護ステーション なごみ</strong></div>
                             <div class="row text-left my-3">
-                              <div class="col-6 col-md-4 offset-md-1">
+                              <div class="form-group col-6 col-md-4 offset-md-1">
                                 <strong>所在地</strong><br>
                                 〒 577-0804<br>
                                 東大阪市中小阪1-15-5
                               </div>
-                              <div class="col-6 col-md-4 offset-md-2">
-                                <strong>お問い合わせ</strong><br>
-                                TEL： 06 - 6730 - 8377<br>
-                                FAX： 06 - 6730 - 8378
+                              <div class="form-group col-6 col-md-5 offset-md-1">
+                                <strong>定休日</strong><br>
+                                土・日曜日<br>
+                                <small>※医療の場合は相談可</small>
                               </div>
-                              <div class="col-6 col-md-4 offset-md-1 mt-3">
+                              <div class="form-group col-12 col-md-4 offset-md-1">
                                 <strong>営業時間</strong><br>
                                 月 〜 金曜日<br>
                                 ９：００ 〜 １７：００<br>
                                 <small>※夜間・休日の急変など、緊急の場合には携帯電話で連絡がつきます。</small>
                               </div>
-                              <div class="col-6 col-md-4 offset-md-2 mt-3">
-                                <strong>定休日</strong><br>
-                                土・日曜日<br>
-                                <small>※医療の場合は相談可</small>
+                              <div class="col-12 col-md-5 offset-md-1">
+                                <strong>お問い合わせ</strong>
+                                <div class="d-flex">
+                                  <div>
+                                    TEL<br>
+                                    FAX<br>
+                                    MAIL<br>
+                                  </div>
+                                  <div>
+                                    ： 06 - 6730 - 8377<br>
+                                    ： 06 - 6730 - 8378<br>
+                                    ： <span class="footer-mail">harada@sol-nagomi.co.jp</span>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                             <div class="mb-2">

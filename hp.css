@@ -6,6 +6,11 @@ h1 {
   font-size: large;
 }
 
+img {
+  height: auto;
+  width: 200px;
+}
+
 .container {
   background-color: #ffffff;
 }
@@ -39,18 +44,12 @@ h1 {
   color: #ffbd59;
 }
 
-footer {
-  font-size: xx-small;
-  background-color: #f8f9fa;
-  width: 100%;
-  height: auto;
-}
-
 .emphasis {
   font-size: large;
   font-weight: bold;
 }
 
+/* 特徴 */
 .feature_left-top{
   transform: rotate(-45deg);
   font-size: large;
@@ -68,14 +67,20 @@ footer {
   font-size: large;
 }
 
-.footer-title{
+/* ステーション案内 */
+.mail{
   font-size: small;
 }
 
+/* 会社概要 */
+.history{
+  font-size: small;
+}
+
+/* 理念・方針 */
 .philosophy-text {
   width: 240px;
 }
-
 .philosophy{
   font-size: large;
   width: 80px;
@@ -86,19 +91,22 @@ footer {
   line-height: 80px;
 }
 
-img {
+/* フッター */
+footer {
+  font-size: xx-small;
+  background-color: #f8f9fa;
+  width: 100%;
   height: auto;
-  width: 200px;
 }
+.footer-title{
+  font-size: small;
+}
+
 
 @media screen and (min-width: 480px) { }
 
 /* ipad縦 */
 @media screen and (min-width: 768px) {
-
-  footer {
-    font-size: medium;
-  }
 
   .emphasis {
     font-size: x-large;
@@ -117,10 +125,20 @@ img {
     font-size: xx-large;
   }
 
+  .mail{
+    font-size: large;
+  }
+
+  .history{
+    font-size: medium;
+  }
+  .date{
+    text-align: right;
+  }
+
   .philosophy-text {
     width: 320px;
   }
-
   .philosophy{
     font-size: x-large;
     width: 120px;
@@ -128,8 +146,14 @@ img {
     line-height: 120px;
   }
 
+  footer {
+    font-size: medium;
+  }
   .footer-title{
     font-size: large;
+  }
+  .footer-mail{
+    font-size: medium;
   }
 
 }
